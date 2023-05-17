@@ -29,11 +29,11 @@ export default function Home() {
               As a full-stack developer, I&apos;m on a journey to create solutions that have the potential to revolutionize the world. By leveraging my expertise, I constantly reinvent myself, grow my skills, and improve as an innovator.
               </p>
               <div className='w-full flex items-center justify-start mt-4 lg:justify-center'>
-                <Link href="/dummy.pdf" target='_blank' className='flex items-center bg-dark/90 text-secondary dark:border-light dark:text-secondaryDark px-6 py-2.5 md:px-4 rounded-lg text-lg md:text-base font-semibold hover:bg-light dark:hover:bg-dark dark:hover:text-light hover:text-dark border-2 border-solid border-transparent hover:border-secondary dark:hover:border-secondary'>
+                <Link href="/My_Resume.pdf" target='_blank' className='flex items-center bg-dark/90 text-secondary dark:border-light dark:text-secondaryDark px-6 py-2.5 md:px-4 rounded-lg text-lg md:text-base font-semibold hover:bg-light dark:hover:bg-dark dark:hover:text-light hover:text-dark border-2 border-solid border-transparent hover:border-secondary dark:hover:border-secondary'>
                   <LinkArrow className={"w-6 mr-2"}/>
                   Resume
                 </Link>
-                <Link href="/mailto:xyz@gmail.com" target='_blank'
+                <Link href="/mailto:khush.gandhi24@outlook.com" target='_blank'
                 className='ml-4 md:text-base flex items-center bg-light text-primary dark:border-light dark:text-primaryDark px-6 py-2.5 rounded-lg text-lg font-semibold hover:text-dark border-2 border-solid border-dark hover:border-primary dark:hover:bg-dark dark:hover:border-primaryDark dark:hover:text-light'>
                   Contact</Link>
               </div>
