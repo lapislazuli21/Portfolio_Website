@@ -48,15 +48,11 @@ const about = () => {
                 <div className='grid w-full grid-cols-9 gap-16 sm:gap-8 dark:text-light'>
                     <div className='md:order-2 md:col-span-9 col-span-3 xl:col-span-4 flex flex-col items-start md:items-center justify-center '>
                         <h2 className='mb-4 text-xl font-bold text-dark/90 dark:text-light/90 capitalize'>A look behind the screen</h2>
-                        <p className='font-medium'>Hi, I&apos;m CodeBucks, a web developer and UI/UX designer with a passion for creating beautiful, functional, 
-and user-centered digital experiences. With 4 years of experience in the field. I am always looking for 
-new and innovative ways to bring my clients&apos; visions to life.
+                        <p className='font-medium'>Hey, I&apos;m Khush, a dedicated full-stack and mobile app developer with a diverse background in creating seamless and engaging digital experiences. As a freelance web & mobile app developer, I&apos;ve had the opportunity to work on various projects, honing my skills in designing intuitive user interfaces and building robust backend systems. Additionally, my experience as an AI research intern has allowed me to delve into the exciting realm of artificial intelligence, further expanding my knowledge and expertise.
+.
 </p>
-                        <p className='font-medium my-4'>I believe that design is about more than just making things look pretty, it&apos;s about solving problems and 
-creating intuitive, enjoyable experiences for users. </p>
-                        <p className='font-medium'>Whether I&apos;m working on a website, mobile app, or 
-other digital product, I bring my commitment to design excellence and user-centered thinking to 
-every project I work on. I look forward to the opportunity to bring my skills and passion to your next project.</p>
+                        <p className='font-medium my-4'>With a deep understanding of both front-end and back-end technologies, I work diligently to ensure smooth functionality and top-notch performance in all my projects. As an enthusiastic learner, I stay up-to-date with industry trends and technologies, constantly exploring new tools and best practices to deliver high-quality applications that exceed expectations. I believe in pushing boundaries and embracing challenges to create solutions that truly make a difference. </p>
+                        <p className='font-medium'> If you&apos;re seeking a developer who is not only skilled but also committed to making an impact, I&apos;m here to collaborate with you. Let&apos;s work together to create remarkable digital experiences that revolutionize the world!"</p>
                     </div>
                     <div className='md:order-1 md:col-span-9 col-span-3 xl:col-span-5 relative h-max rounded-2xl border-2 border-solid border-dark bg-light dark:border-light dark:bg-dark p-8'>
                         <div className='absolute top-0 -right-4 -z-10 w-[102%] h-[103%] rounded-[2rem] bg-dark dark:bg-light' />
