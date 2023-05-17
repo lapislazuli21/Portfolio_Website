@@ -52,7 +52,7 @@ const about = () => {
 .
 </p>
                         <p className='font-medium my-4'>With a deep understanding of both front-end and back-end technologies, I work diligently to ensure smooth functionality and top-notch performance in all my projects. As an enthusiastic learner, I stay up-to-date with industry trends and technologies, constantly exploring new tools and best practices to deliver high-quality applications that exceed expectations. I believe in pushing boundaries and embracing challenges to create solutions that truly make a difference. </p>
-                        <p className='font-medium'> If you&apos;re seeking a developer who is not only skilled but also committed to making an impact, I&apos;m here to collaborate with you. Let&apos;s work together to create remarkable digital experiences that revolutionize the world!"</p>
+                        <p className='font-medium'> If you&apos;re seeking a developer who is not only skilled but also committed to making an impact, I&apos;m here to collaborate with you. Let&apos;s work together to create remarkable digital experiences that revolutionize the world!</p>
                     </div>
                     <div className='md:order-1 md:col-span-9 col-span-3 xl:col-span-5 relative h-max rounded-2xl border-2 border-solid border-dark bg-light dark:border-light dark:bg-dark p-8'>
                         <div className='absolute top-0 -right-4 -z-10 w-[102%] h-[103%] rounded-[2rem] bg-dark dark:bg-light' />
