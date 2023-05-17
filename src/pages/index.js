@@ -26,7 +26,7 @@ export default function Home() {
             <div className='w-1/2 flex flex-col items-center self-center lg:w-full lg:text-center'>
               <AnimatedText text="Reshaping the Present to Transform the Future." className='!text-left xl:!text-6xl lg:!text-center lg:!text-7xl md:!text-6xl sm:!text-4xl' />
               <p className='my-6 text-[18px] font-medium md:text-[16px] sm:text-[14px]'>
-              As a full-stack developer, I'm on a journey to create solutions that have the potential to revolutionize the world. By leveraging my expertise, I constantly reinvent myself, grow my skills, and improve as an innovator.
+              As a full-stack developer, I&apos;m on a journey to create solutions that have the potential to revolutionize the world. By leveraging my expertise, I constantly reinvent myself, grow my skills, and improve as an innovator.
               </p>
               <div className='w-full flex items-center justify-start mt-4 lg:justify-center'>
                 <Link href="/dummy.pdf" target='_blank' className='flex items-center bg-dark/90 text-secondary dark:border-light dark:text-secondaryDark px-6 py-2.5 md:px-4 rounded-lg text-lg md:text-base font-semibold hover:bg-light dark:hover:bg-dark dark:hover:text-light hover:text-dark border-2 border-solid border-transparent hover:border-secondary dark:hover:border-secondary'>
