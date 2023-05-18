@@ -33,7 +33,7 @@ export default function Home() {
                   <LinkArrow className={"w-6 mr-2"}/>
                   Resume
                 </Link>
-                <Link href="/mailto:khush.gandhi24@outlook.com" target='_blank'
+                <Link href="mailto:khush.gandhi24@outlook.com" target='_blank'
                 className='ml-4 md:text-base flex items-center bg-light text-primary dark:border-light dark:text-primaryDark px-6 py-2.5 rounded-lg text-lg font-semibold hover:text-dark border-2 border-solid border-dark hover:border-primary dark:hover:bg-dark dark:hover:border-primaryDark dark:hover:text-light'>
                   Contact</Link>
               </div>
