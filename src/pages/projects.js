@@ -7,6 +7,7 @@ import Image from "next/image"
 import exa from "../../public/images/projects/ExAncient.jpg"
 import plh from "../../public/images/projects/ExAncient.jpg"
 import dts from "../../public/images/projects/DatasetRecordLinkage.png"
+import wta from "../../public/images/projects/WeatherApp.png"
 import { motion } from "framer-motion"
 import TransitionEffect from "@/components/TransitionEffect"
 
@@ -84,7 +85,7 @@ const projects = () => {
                         <Project title="Dataset Record Linkage" summary="This project takes 2 related datasets containing data on IPOs issued by Indian Companies and performs EDA & Record Linkage to prepare a more comprehensive & complete dataset." link="https://github.com/lapislazuli21/Dataset_Record_Linkage" github="https://github.com/lapislazuli21/Dataset_Record_Linkage" type="Data Science" img={dts}/>
                     </div>
                     <div className="col-span-6 sm:col-span-12">
-                    <Project title="Weather App" summary="This project is a simple weather app that changes its background in accordance to the weather of the city you search for." link="https://weather-app-dun-phi.vercel.app/" github="https://github.com/lapislazuli21/Weather_App" type="Front-End Project" img={plh}/>
+                    <Project title="Weather App" summary="This project is a simple weather app that changes its background in accordance to the weather of the city you search for." link="https://weather-app-dun-phi.vercel.app/" github="https://github.com/lapislazuli21/Weather_App" type="Front-End Project" img={wta}/>
                     </div>
                     <div className="col-span-12">
                     <FeaturedProject title="ExAncient" 
