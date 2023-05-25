@@ -6,6 +6,7 @@ import Link from "next/link"
 import Image from "next/image"
 import exa from "../../public/images/projects/ExAncient.jpg"
 import plh from "../../public/images/projects/ExAncient.jpg"
+import dts from "../../public/images/projects/DatasetRecordLinkage.png"
 import { motion } from "framer-motion"
 import TransitionEffect from "@/components/TransitionEffect"
 
@@ -80,7 +81,7 @@ const projects = () => {
                         summary="This project performs neural style transfer from top paintings and gives you that feel and look of living in that era. It also generates a romantic caption based on the image using a neural storyteller model"/>
                     </div>
                     <div className="col-span-6 sm:col-span-12">
-                        <Project title="Dataset Record Linkage" summary="This project takes 2 related datasets containing data on IPOs issued by Indian Companies and performs EDA & Record Linkage to prepare a more comprehensive & complete dataset." link="https://github.com/lapislazuli21/Dataset_Record_Linkage" github="https://github.com/lapislazuli21/Dataset_Record_Linkage" type="Data Science" img={plh}/>
+                        <Project title="Dataset Record Linkage" summary="This project takes 2 related datasets containing data on IPOs issued by Indian Companies and performs EDA & Record Linkage to prepare a more comprehensive & complete dataset." link="https://github.com/lapislazuli21/Dataset_Record_Linkage" github="https://github.com/lapislazuli21/Dataset_Record_Linkage" type="Data Science" img={dts}/>
                     </div>
                     <div className="col-span-6 sm:col-span-12">
                     <Project title="Weather App" summary="This project performs neural style transfer from top paintings and gives you that feel and look of living in that era." link="/" github="/" type="Front-End Project" img={plh}/>
