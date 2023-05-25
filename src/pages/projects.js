@@ -52,9 +52,9 @@ const Project = ({title, type, img, link, github, summary}) => {
                 </Link>
                 <p className="my-2 font-medium text-dark dark:text-light sm:text-sm">{summary}</p>
                 <div className="w-full mt-2 flex items-center justify-evenly">
-                    <Link href={`${github}`} target="_blank" className="ml-4 md:ml-0 rounded-lg bg-light border-dark text-primary dark:bg-dark dark:border-light dark:text-secondary px-6 py-2 text-lg font-semibold
+                    <Link href={`${link}`} target="_blank" className="ml-4 md:ml-0 rounded-lg bg-light border-dark text-primary dark:bg-dark dark:border-light dark:text-secondary px-6 py-2 text-lg font-semibold
                     hover:bg-light hover:text-dark dark:hover:bg-dark dark:hover:text-light border-2 border-solid hover:border-primary dark:hover:border-secondary md:text-base">Check it Out</Link>
-                    <Link href={`${link}`} target="_blank" className="w-10 dark:text-light"><GithubIcon/></Link>
+                    <Link href={`${github}`} target="_blank" className="w-10 dark:text-light"><GithubIcon/></Link>
                 </div>
             </div>
         </article>
