@@ -22,7 +22,7 @@ const Details = ({position, workplace, website, time, work}) => {
     )
 }
 
-const EdDetails = ({type, place, info, time, gpa}) => {
+const EdDetails = ({type, place, info, time}) => {
     
     const ref = useRef(null)
 
@@ -32,7 +32,7 @@ const EdDetails = ({type, place, info, time, gpa}) => {
             <motion.div initial={{y:50}} whileInView={{y:0}} transition={{duration:0.5, type:"spring"}} >
                 <h3 className="capitalize font-bold text-2xl sm:text-xl xs:text-lg">{type}&nbsp;|&nbsp;<span className="text-primary dark:text-secondary">{place}</span></h3>
                 <span className="capitalize text-lg font-semibold text-dark/80 dark:text-light/80 xs:text-sm">
-                    {time} | GPA:&nbsp;{gpa}
+                    {time}
                 </span>
                 <p className="font-semibold w-full md:text-sm">
                     {info}
@@ -64,7 +64,7 @@ const Experience = () => {
                 website='https://www.gravityintel.com/home/' work='Developed an ecommerce mobile app using Flutter for both Android & iOS platforms. Integrated multiple APIs for authentication, shipments & cart functionalities. Designed the app from scratch.'/>
                 <Details position='Freelance Web Developer' workplace='Gravity Intelligent Solutions' time='February 2021 - April 2021'
                 website='https://www.gravityintel.com/home/' work='Worked on the website for Gravity Intelligent Solutions. Used HTML, CSS, JavaScript & jQuery to implement the website design and functionalities.'/>
-                <EdDetails type="Bachelor's in Computer Information Systems" place="University of the Fraser Valley" gpa="3.77" time="September 2018 - September 2022" info="Dean's List in Winter 2022"/>
+                <EdDetails type="Bachelor's in Computer Information Systems" place="University of the Fraser Valley" time="September 2018 - September 2022" info="Completed a Bachelor's in Computer Information Systems. Awarded for academic excellence with inclusion in Dean's List for Winter 2022 semester."/>
             </ul>
         </div>
     </div>
