@@ -7,7 +7,7 @@ import Image from "next/image"
 import exa from "../../public/images/projects/ExAncient.jpg"
 import plh from "../../public/images/projects/ExAncient.jpg"
 import dts from "../../public/images/projects/DatasetRecordLinkage.png"
-import wta from "../../public/images/projects/WeatherApp.png"
+import wta from "../../public/images/projects/WeatherApp_New.png"
 import { motion } from "framer-motion"
 import TransitionEffect from "@/components/TransitionEffect"
 
@@ -41,9 +41,9 @@ const FeaturedProject = ({type, title, summary, img, link, github}) => {
 const Project = ({title, type, img, link, github, summary}) => {
     return (
         <article className="w-full flex flex-col items-center justify-center rounded-2xl border border-solid border-dark bg-light dark:border-light dark:bg-dark p-6 relative xs:p-4">
-            <div className='absolute top-0 -right-4 -z-10 w-[102%] h-[103%] rounded-br-3xl rounded-[2rem] bg-dark dark:bg-light md:-right-2 xs:w-full md:h-[102%] xs:rounded-[1.5rem]' />
+            <div className='absolute -z-10 w-[102%] h-[103%] rounded-br-3xl rounded-[1.5rem] bg-dark dark:bg-light md:-right-2 xs:w-full md:h-[102%] xs:rounded-[1.5rem]' />
             <Link href={`${link}`} target="_blank" className="w-full cursor-pointer overflow-none">
-                <FramerImage src={img} alt={title} className="w-full h-auto rounded-xl border border-solid border-dark dark:border-light" whileHover={{scale: 1.03}} transition={{duration: 0.2}} priority/>
+                <FramerImage src={img} alt={title} className="w-full h-[600px] rounded-xl border border-solid border-dark dark:border-light" whileHover={{scale: 1.03}} transition={{duration: 0.2}} priority/>
             </Link>
             <div className="w-full flex flex-col items-start justify-between mt-4">
                 <span className="text-primary dark:text-secondary font-medium text-lg lg:text-base md:text-sm">{type}</span>
@@ -85,7 +85,7 @@ const projects = () => {
                         <Project title="Dataset Record Linkage" summary="This project takes 2 related datasets containing data on IPOs issued by Indian Companies and performs EDA & Record Linkage to prepare a more comprehensive & complete dataset." link="https://github.com/lapislazuli21/Dataset_Record_Linkage" github="https://github.com/lapislazuli21/Dataset_Record_Linkage" type="Data Science" img={dts}/>
                     </div>
                     <div className="col-span-6 sm:col-span-12">
-                    <Project title="Weather App" summary="This project is a simple weather app that changes its background in accordance to the weather of the city you search for." link="https://weather-app-dun-phi.vercel.app/" github="https://github.com/lapislazuli21/Weather_App" type="Front-End Project" img={wta}/>
+                    <Project title="Weather App" summary="This project is a simple app that uses a weather api to display the temperature of city and current weather condition. It changes its background in accordance to the weather of the city that was searched." link="https://weather-app-dun-phi.vercel.app/" github="https://github.com/lapislazuli21/Weather_App" type="Front-End Project" img={wta}/>
                     </div>
                     <div className="col-span-12">
                     <FeaturedProject title="ExAncient" 
