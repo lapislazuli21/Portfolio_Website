@@ -60,10 +60,10 @@ const Experience = () => {
             <ul className="w-full flex flex-col items-start justify-between ml-4 dark:text-light xs:ml-2">
                 <Details position='Student Research Assistant' workplace='University of the Fraser Valley' time='April 2022 - Present'
                 website='https://www.ufv.ca/chasi/about/faculty-associates/shabani-amir.htm' work='Working on research topics at the intersection of multiple disciplines such as Robotics, Artificial Intelligence, Augmented Reality, Computer Vision, Voice Recognition, IoT, Home Automation, and Wearable devices.'/>
-                <Details position='Student Research Assistant' workplace='University of the Fraser Valley' time='April 2022 - Present'
-                website='https://www.ufv.ca/chasi/about/faculty-associates/shabani-amir.htm' work='Working on research topics at the intersection of multiple disciplines such as Robotics, Artificial Intelligence, Augmented Reality, Computer Vision, Voice Recognition, IoT, Home Automation, and Wearable devices.'/>
-                <Details position='Student Research Assistant' workplace='University of the Fraser Valley' time='April 2022 - Present'
-                website='https://www.ufv.ca/chasi/about/faculty-associates/shabani-amir.htm' work='Working on research topics at the intersection of multiple disciplines such as Robotics, Artificial Intelligence, Augmented Reality, Computer Vision, Voice Recognition, IoT, Home Automation, and Wearable devices.'/>
+                <Details position='Freelance Mobile App Developer' workplace='Gravity Intelligent Solutions' time='November 2022 - May 2023'
+                website='https://www.gravityintel.com/home/' work='Developed an ecommerce mobile app using Flutter for both Android & iOS platforms. Integrated multiple APIs for authentication, shipments & cart functionalities. Designed the app from scratch.'/>
+                <Details position='Freelance Web Developer' workplace='Gravity Intelligent Solutions' time='February 2021 - April 2021'
+                website='https://www.gravityintel.com/home/' work='Worked on the website for Gravity Intelligent Solutions. Used HTML, CSS, JavaScript & jQuery to implement the website design and functionalities.'/>
                 <EdDetails type="Bachelor's in Computer Information Systems" place="University of the Fraser Valley" gpa="3.77" time="September 2018 - September 2022" info="Dean's List in Winter 2022"/>
             </ul>
         </div>

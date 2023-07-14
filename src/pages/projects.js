@@ -6,6 +6,8 @@ import Link from "next/link"
 import Image from "next/image"
 import exa from "../../public/images/projects/ExAncient.jpg"
 import plh from "../../public/images/projects/ExAncient.jpg"
+import dts from "../../public/images/projects/DatasetRecordLinkage.png"
+import wta from "../../public/images/projects/WeatherApp.png"
 import { motion } from "framer-motion"
 import TransitionEffect from "@/components/TransitionEffect"
 
@@ -28,7 +30,7 @@ const FeaturedProject = ({type, title, summary, img, link, github}) => {
                 <p className="my-2 font-medium text-dark dark:text-light sm:text-sm">{summary}</p>
                 <div className="w-full mt-2 flex items-center justify-evenly">
                     <Link href={`${github}`} target="_blank" className="w-10 dark:text-light"><GithubIcon/></Link>
-                    <Link href={`${github}`} target="_blank" className="ml-4 rounded-lg bg-dark text-secondary dark:bg-light dark:text-primary px-6 py-2 sm:text-base text-lg font-semibold
+                    <Link href={`${link}`} target="_blank" className="ml-4 rounded-lg bg-dark text-secondary dark:bg-light dark:text-primary px-6 py-2 sm:text-base text-lg font-semibold
                     hover:bg-light hover:text-dark dark:hover:bg-dark dark:hover:text-light border-2 border-solid border-transparent hover:border-secondary dark:hover:border-primary">Check it Out</Link>
                 </div>
             </div>
@@ -50,7 +52,7 @@ const Project = ({title, type, img, link, github, summary}) => {
                 </Link>
                 <p className="my-2 font-medium text-dark dark:text-light sm:text-sm">{summary}</p>
                 <div className="w-full mt-2 flex items-center justify-evenly">
-                    <Link href={`${github}`} target="_blank" className="ml-4 md:ml-0 rounded-lg bg-light border-dark text-primary dark:bg-dark dark:border-light dark:text-secondary px-6 py-2 text-lg font-semibold
+                    <Link href={`${link}`} target="_blank" className="ml-4 md:ml-0 rounded-lg bg-light border-dark text-primary dark:bg-dark dark:border-light dark:text-secondary px-6 py-2 text-lg font-semibold
                     hover:bg-light hover:text-dark dark:hover:bg-dark dark:hover:text-light border-2 border-solid hover:border-primary dark:hover:border-secondary md:text-base">Check it Out</Link>
                     <Link href={`${github}`} target="_blank" className="w-10 dark:text-light"><GithubIcon/></Link>
                 </div>
@@ -80,10 +82,10 @@ const projects = () => {
                         summary="This project performs neural style transfer from top paintings and gives you that feel and look of living in that era. It also generates a romantic caption based on the image using a neural storyteller model"/>
                     </div>
                     <div className="col-span-6 sm:col-span-12">
-                        <Project title="Weather App" summary="This project performs neural style transfer from top paintings and gives you that feel and look of living in that era." link="/" github="/" type="Front-End Project" img={plh}/>
+                        <Project title="Dataset Record Linkage" summary="This project takes 2 related datasets containing data on IPOs issued by Indian Companies and performs EDA & Record Linkage to prepare a more comprehensive & complete dataset." link="https://github.com/lapislazuli21/Dataset_Record_Linkage" github="https://github.com/lapislazuli21/Dataset_Record_Linkage" type="Data Science" img={dts}/>
                     </div>
                     <div className="col-span-6 sm:col-span-12">
-                    <Project title="Weather App" summary="This project performs neural style transfer from top paintings and gives you that feel and look of living in that era." link="/" github="/" type="Front-End Project" img={plh}/>
+                    <Project title="Weather App" summary="This project is a simple weather app that changes its background in accordance to the weather of the city you search for." link="https://weather-app-dun-phi.vercel.app/" github="https://github.com/lapislazuli21/Weather_App" type="Front-End Project" img={wta}/>
                     </div>
                     <div className="col-span-12">
                     <FeaturedProject title="ExAncient" 
