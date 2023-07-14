@@ -87,6 +87,7 @@ const projects = () => {
                     <div className="col-span-6 sm:col-span-12">
                     <Project title="Weather App" summary="This project is a simple app that uses a weather api to display the temperature of city and current weather condition. It changes its background in accordance to the weather of the city that was searched." link="https://weather-app-dun-phi.vercel.app/" github="https://github.com/lapislazuli21/Weather_App" type="Front-End Project" img={wta}/>
                     </div>
+                    {/*
                     <div className="col-span-12">
                     <FeaturedProject title="ExAncient" 
                         link="https://devpost.com/software/exancient" 
@@ -101,6 +102,7 @@ const projects = () => {
                     <div className="col-span-6 sm:col-span-12">
                     <Project title="Weather App" summary="This project performs neural style transfer from top paintings and gives you that feel and look of living in that era." link="/" github="/" type="Front-End Project" img={plh}/>
                     </div>
+                    */}
                 </div>
             </Layout>
         </main>
