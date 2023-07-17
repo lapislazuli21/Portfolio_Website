@@ -85,7 +85,7 @@ const projects = () => {
                         <Project title="Dataset Record Linkage" summary="This project takes 2 related datasets containing data on IPOs issued by Indian Companies and performs EDA & Record Linkage to prepare a more comprehensive & complete dataset." link="https://github.com/lapislazuli21/Dataset_Record_Linkage" github="https://github.com/lapislazuli21/Dataset_Record_Linkage" type="Data Science" img={dts}/>
                     </div>
                     <div className="col-span-6 sm:col-span-12">
-                    <Project title="Weather App" summary="This project is a simple app that uses a weather api to display the temperature of city and current weather condition. It changes its background in accordance to the weather of the city that was searched." link="https://weather-app-dun-phi.vercel.app/" github="https://github.com/lapislazuli21/Weather_App" type="Front-End Project" img={wta}/>
+                    <Project title="Weather App" summary="This project is a simple app that uses a weather api to display the temperature of city and current weather condition. It changes its background in accordance to the weather of the city." link="https://weather-app-dun-phi.vercel.app/" github="https://github.com/lapislazuli21/Weather_App" type="Front-End Project" img={wta}/>
                     </div>
                     {/*
                     <div className="col-span-12">
