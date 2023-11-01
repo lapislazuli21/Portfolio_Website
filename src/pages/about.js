@@ -61,21 +61,21 @@ const about = () => {
                     <div className='md:order-3 col-span-3 xl:col-span-9 xl:flex-row xl:items-center xl:justify-center flex flex-col items-end justify-evenly md:flex-wrap text-dark/80 dark:text-light/80'>
                         <div className='flex flex-col items-end xl:items-center justify-center md:my-2'>
                             <span className='text-7xl md:text-6xl sm:text-5xl xs:text-4xl font-semibold text-dark dark:text-light'>
-                                <AnimatedNumbers value={100}/>+
+                                <AnimatedNumbers value={200}/>+
                             </span>
-                            <h2 className='text-xl xl:text-center md:text-lg sm:text-base xs:text-sm font-medium capitalize'>hours spent on youtube(where I actually studied)</h2>
+                            <h2 className='text-xl xl:text-center md:text-lg sm:text-base xs:text-sm font-medium capitalize'>hours spent debugging((;¬_¬))</h2>
                         </div>
                         <div className='flex flex-col items-end xl:items-center justify-center md:my-2'>
                             <span className='text-7xl md:text-6xl sm:text-5xl xs:text-4xl font-semibold text-dark dark:text-light'>
                             <AnimatedNumbers value={4}/>+
                             </span>
-                            <h2 className='text-xl xl:text-center md:text-lg sm:text-base xs:text-sm font-medium capitalize'>years spent in college(doing everything but study)</h2>
+                            <h2 className='text-xl xl:text-center md:text-lg sm:text-base xs:text-sm font-medium capitalize'>years spent in college(learning by doing)</h2>
                         </div>
                         <div className='flex flex-col items-end xl:items-center justify-center md:mt-2'>
                             <span className='text-7xl md:text-6xl sm:text-5xl xs:text-4xl font-semibold text-dark dark:text-light'>
                             <AnimatedNumbers value={2}/>+
                             </span>
-                            <h2 className='text-xl xl:text-center md:text-lg sm:text-base xs:text-sm font-medium capitalize'>years spent in freelancing(reality check received)</h2>
+                            <h2 className='text-xl xl:text-center md:text-lg sm:text-base xs:text-sm font-medium capitalize'>years spent freelancing(reality check received)</h2>
                         </div>
                     </div>
                 </div>
