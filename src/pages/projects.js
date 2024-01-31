@@ -8,6 +8,9 @@ import exa from "../../public/images/projects/ExAncient.jpg"
 import plh from "../../public/images/projects/ExAncient.jpg"
 import dts from "../../public/images/projects/DatasetRecordLinkage.png"
 import wta from "../../public/images/projects/WeatherApp_New.png"
+import rp from "../../public/images/projects/r_port_img.png"
+import bc from "../../public/images/projects/bccomp.png"
+import sth from "../../public/images/projects/stray_happy.png"
 import { motion } from "framer-motion"
 import TransitionEffect from "@/components/TransitionEffect"
 
@@ -91,15 +94,15 @@ const projects = () => {
                             <FeaturedProject title="BC Components Website"
                                 link="https://www.bccomp.net"
                                 github="https://github.com/lapislazuli21/BC_Components_Website"
-                                img={exa}
+                                img={bc}
                                 type="Featured Project"
                                 summary="This project is a website for BC Components, a supplier of electronic parts across India" />
                         </div>
                         <div className="col-span-6 sm:col-span-12">
-                            <Project title="Portofolio Website" summary="This project is a portfolio website for a Multidisciplinary designer." link="https://r-portofolio-site.vercel.app/" github="https://github.com/lapislazuli21/R_Portofolio_Site" type="Front-End Project" img={plh} />
+                            <Project title="Portofolio Website" summary="This project is a portfolio website for a Multidisciplinary designer." link="https://r-portofolio-site.vercel.app/" github="https://github.com/lapislazuli21/R_Portofolio_Site" type="Front-End Project" img={rp} />
                         </div>
                         <div className="col-span-6 sm:col-span-12">
-                            <Project title="Stray Happy" summary="This project is a mobile application for a Mumbai based NGO called Stray Happy used to showcase their services and provide useful information related to their mission." link="https://play.google.com/store/apps/details?id=com.mycompany.strayhappy&hl=en_IN&gl=US" github="https://github.com/lapislazuli21/Stray-Happy" type="Mobile App Project" img={plh} />
+                            <Project title="Stray Happy" summary="This project is a mobile application for a Mumbai based NGO called Stray Happy used to showcase their services and provide useful information related to their mission." link="https://play.google.com/store/apps/details?id=com.mycompany.strayhappy&hl=en_IN&gl=US" github="https://github.com/lapislazuli21/Stray-Happy" type="Mobile App Project" img={sth} />
                         </div>
                     </div>
                 </Layout>
